@@ -1,4 +1,4 @@
-# Automatic CSGO Case Recognition
+# Automatic CS2 Case Recognition
 
 This project aims to automatically recognize and match CS2 cases with logins using existing logins and case images. The results are exported to an Excel file for further analysis.
 
