@@ -1,6 +1,6 @@
 # Automatic CSGO Case Recognition
 
-This project aims to automatically recognize and match CSGO (Counter-Strike: Global Offensive) cases with logins using existing logins and case images. The results are exported to an Excel file for further analysis.
+This project aims to automatically recognize and match CS2 cases with logins using existing logins and case images. The results are exported to an Excel file for further analysis.
 
 ## Features
 - Automatic recognition of CSGO cases
