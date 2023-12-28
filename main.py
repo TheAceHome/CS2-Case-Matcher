@@ -4,7 +4,7 @@ from src.get_df_logins import get_logins_from_text
 from src.image_crop import crop_main_image
 from src.image_recognition import get_match
 import os
-os.chdir(f'cases_to_csv')
+os.chdir(f'CS2-Case-Matcher')
 
 
 
