@@ -6,17 +6,15 @@ from src.image_recognition import get_match
 from src.delete_old_pics import clear_for_recog
 import os
 os.chdir(f'CS2-Case-Matcher')
-print(os.getcwd())
 
 
 
-text = """[smbdidknw] Selected drops on: login1, login2, login3, login4, login5, login6, login7, login8, login9, login10"""
+logins = """sgfjr50, philippe2002, du6aetheinge, mabaol, 178013049, shelby65pahl"""
 image = Image.open('image.jpg')
 
 
 
-
-df = get_logins_from_text(text)
+df = get_logins_from_text(logins)
 crop_main_image(image)
 cases = get_match()
 df['Кейсы'] = cases
