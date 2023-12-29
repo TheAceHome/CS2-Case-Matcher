@@ -2,6 +2,7 @@ import os
 def crop_main_image(image):
     # Обрезаем изображение по количеству пикселей
     # Получаем размеры изображения
+    os.mkdir('for_recognition')
     width, height = image.size
     i = 0
     k=0

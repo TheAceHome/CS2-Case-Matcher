@@ -25,3 +25,4 @@ else:
     df = pd.concat([old_df, df])
 df.to_excel("out.xlsx", index=False)
 clear_for_recog()
+os.rmdir('for_recognition')
