@@ -7,4 +7,4 @@ def clear_for_recog():
             os.chdir(f'for_recognition')
             os.remove(f"{j}")
             os.chdir(os.path.dirname(os.getcwd()))
-    return print("Folder for_recongition cleared")
+    return print("old for_recongition cleared")
