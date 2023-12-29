@@ -5,7 +5,6 @@ import warnings
 warnings.simplefilter("ignore", UserWarning)
 import os
 os.chdir(os.path.dirname(os.getcwd()))
-print(os.getcwd())
 
 # img1 = cv2.imread('70.jpg', 0)
 # img2 = cv2.imread('140.jpg', 0)
