@@ -1,5 +1,6 @@
 import os
 def clear_for_recog():
+
     tree = os.walk('for_recognition')
     for i in tree:
         for j in i[2]:

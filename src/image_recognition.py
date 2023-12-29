@@ -68,6 +68,7 @@ def get_list_of_recog():
     for i in tree:
         l.append(list(i))
     l = sorted([f'{i}' for i in l[0][2]])
+    l = sorted(l, key=lambda x: int(x.split('.')[0]))
     return l
 
 def get_match():
