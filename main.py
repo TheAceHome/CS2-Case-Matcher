@@ -3,9 +3,10 @@ import pandas as pd
 from src.get_df_logins import get_logins_from_text
 from src.image_crop import crop_main_image
 from src.image_recognition import get_match
+from src.delete_old_pics import clear_for_recog
 import os
 os.chdir(f'CS2-Case-Matcher')
-
+print(os.getcwd())
 
 
 
@@ -25,3 +26,4 @@ else:
     old_df = pd.read_excel("out.xlsx")
     df = pd.concat([old_df, df])
 df.to_excel("out.xlsx", index=False)
+clear_for_recog()
